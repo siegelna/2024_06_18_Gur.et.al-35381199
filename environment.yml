@@ -1,0 +1,32 @@
+name: 2024_06_18_Gur.et.al-35381199
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+   # R packages
+  - r-irkernel  
+  - r-base
+  - r-shinyhelper
+  - r-shiny
+  - r-shinyjs
+  - r-dplyr
+  - r-readr
+  - r-ggpmisc
+  - r-ggplot2
+  - r-plotly
+  - r-dt
+  - r-seurat
+  - r-devtools
+  - r-hdf5r
+  - r-ggdendro
+
+  # Bioconductor
+  - bioconductor-celldex
+  - bioconductor-singler
+  - bioconductor-glmgampoi
+
+  # JupyterLab for running notebooks
+  - jupyterlab
+
+  # Radian for improved R REPL (optional)
+  - radian
