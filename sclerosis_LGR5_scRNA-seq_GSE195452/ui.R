@@ -23,7 +23,7 @@ list(tags$style(HTML(".navbar-default .navbar-nav { font-weight: bold; font-size
  
    
 ### Page title 
-titlePanel("Systemic Sclerosis LRG5 Expression scRNAseq"),  
+titlePanel("Systemic Sclerosis Blood and Skin GSE195452 scRNAseq"),  
 navbarPage( 
   NULL,  
  navbarMenu("Skin",### Tab1.a1: cellInfo vs geneExpr on dimRed 
@@ -1468,7 +1468,7 @@ tabPanel(
 
    
 br(), 
-p(strong("Reference: "),"Liu X., Ouyang J.F., Rossello F.J. et al. "," ",em("Cell "),strong("185, "),"1373-1388 ","(2022) ","doi: 10.1016/j.cell.2022.03.011 ",a("[Link]", href = "https://pubmed.ncbi.nlm.nih.gov/35381199/", target="_blank"),style = "font-size: 125%;"), 
+p("", style = "font-size: 125%;"), 
 p(em("This webpage was made using "), a("ShinyCell", 
   href = "https://github.com/SGDDNB/ShinyCell",target="_blank")), 
 br(),br(),br(),br(),br() 
